@@ -22,6 +22,8 @@ public class Application implements CommandLineRunner{
 	@Override
 	public void run(String... arg0) throws Exception {
 		
+		System.out.println("hello");
+		
 		soccerService.addBarcelonaPlayer("Xavi Hernandez", "Midfielder", 6);
 		
 		List<String> players = soccerService.getAllTeamPlayers(1);
