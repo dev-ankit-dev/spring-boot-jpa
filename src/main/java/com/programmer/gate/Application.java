@@ -23,6 +23,7 @@ public class Application implements CommandLineRunner{
 	public void run(String... arg0) throws Exception {
 		
 		System.out.println("hello");
+		System.out.println("hello");
 		
 		soccerService.addBarcelonaPlayer("Xavi Hernandez", "Midfielder", 6);
 		
